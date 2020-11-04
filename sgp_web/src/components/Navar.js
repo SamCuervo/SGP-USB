@@ -3,6 +3,7 @@ import React from 'react'
 import {Link} from 'react-router-dom'
 const Nav = () => (
 <header id="header">
+  <div>
       <div id="topbar">
         <div className="container">
           <div className="social-links">
@@ -34,13 +35,13 @@ const Nav = () => (
         <nav className="main-nav float-right d-none d-lg-block">
           <ul>
             <li className="active">
-              <a href="#intro">Home</a>
+              <a href="/Home">Home</a>
             </li>
             <li>
-              <a href="#about">Info</a>
+              <a href="/Home#about">Info</a>
             </li>
             <li>
-            <Link to="/Home/Search">  Buscador</Link>
+            <Link to="/Home/Search">Buscador</Link>
             
             </li>
             <li>
@@ -50,5 +51,6 @@ const Nav = () => (
         </nav>
         {/* .main-nav */}
       </div>
+    </div>  
     </header>);
     export default Nav
