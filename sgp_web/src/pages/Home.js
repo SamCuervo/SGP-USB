@@ -1,59 +1,19 @@
 import React from 'react'
+import Navar from '../components/Navar'
 // import NotFoundImg from '../images/404.png'
-
+import { Link } from 'react-router-dom'
+import Footer from '../components/Footer'
 const Home = () => (
   <div>
+    
     {/*==========================
   Header
   ============================*/}
     <header id="header">
-      <div id="topbar">
-        <div className="container">
-          <div className="social-links">
-            <a href="#" className="twitter">
-              <i className="fa fa-twitter" />
-            </a>
-            <a href="#" className="facebook">
-              <i className="fa fa-facebook" />
-            </a>
-            <a href="#" className="linkedin">
-              <i className="fa fa-linkedin" />
-            </a>
-            <a href="#" className="instagram">
-              <i className="fa fa-instagram" />
-            </a>
-          </div>
-        </div>
-      </div>
-      <div className="container">
-        <div className="logo float-left">
-          {/* Uncomment below if you prefer to use an image logo */}
-          <h1 className="text-light">
-            <a href="#intro" className="scrollto">
-              <span>MRBS</span>
-            </a>
-          </h1>
-          {/* <a href="#header" class="scrollto"><img src="img/logo.png" alt="" class="img-fluid"></a> */}
-        </div>
-        <nav className="main-nav float-right d-none d-lg-block">
-          <ul>
-            <li className="active">
-              <a href="#intro">Home</a>
-            </li>
-            <li>
-              <a href="#about">Info</a>
-            </li>
-            <li>
-              <a href="#services">Buscador</a>
-            </li>
-            <li>
-              <a href="#portfolio">login</a>
-            </li>
-          </ul>
-        </nav>
-        {/* .main-nav */}
-      </div>
+    <Navar/>
+      
     </header>
+
     {/* #header */}
     {/*==========================
     Intro Section
@@ -1183,7 +1143,9 @@ Frequently Asked Questions Section
       </section>
       {/* #faq */}
     </main>
+    <Footer/>
   </div>
+  
 
 );
 
