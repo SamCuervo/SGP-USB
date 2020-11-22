@@ -93,7 +93,7 @@ About Us Section
           <div className="row">
             <div className="col-lg-5 col-md-6">
               <div className="about-img">
-                <img src="img/about-img.jpg" alt />
+                <img src="" alt />
               </div>
             </div>
             <div className="col-lg-7 col-md-6">
