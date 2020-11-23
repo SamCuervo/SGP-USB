@@ -27,7 +27,7 @@ const Nav = () => (
           {/* Uncomment below if you prefer to use an image logo */}
           <h1 className="text-light">
             <a href="#intro" className="scrollto">
-              <span>MRBS</span>
+              <span>SGP</span>
             </a>
           </h1>
           {/* <a href="#header" class="scrollto"><img src="img/logo.png" alt="" class="img-fluid"></a> */}
