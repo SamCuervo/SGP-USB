@@ -1,7 +1,7 @@
 import React from 'react'
-import Menu from  '../components/Menu'
-import Content from  '../components/Content'
-import Header from  '../components/Header'
+import Menu from  '../components/Global/Aside'
+import Content from  '../components/Global/Content'
+import Header from  '../components/Global/Header'
 const Index1= () => (
 <div>
 <Menu/>

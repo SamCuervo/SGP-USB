@@ -1,6 +1,7 @@
 import React from 'react'
 // import NotFoundImg from '../images/404.png'
 import {Link} from 'react-router-dom'
+import { NavLink } from 'react-router-dom';
 const Nav = () => (
 <header id="header">
   <div>
@@ -45,7 +46,8 @@ const Nav = () => (
             
             </li>
             <li>
-            <Link to="/Home/Login">  Login</Link>
+            <NavLink to={"/Home/Login/"}>Inicio Sesion</NavLink>
+           
             </li>
           </ul>
         </nav>

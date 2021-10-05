@@ -256,7 +256,8 @@ h6 {
 
 /* Desktop Navigation */
 
-.main-nav {
+.main-sidebar{
+
   /* Drop Down */
   /* Deep Drop Down */
 }
@@ -266,6 +267,7 @@ h6 {
   margin: 0;
   padding: 0;
   list-style: none;
+
 }
 
 .main-nav > ul > li {
